@@ -8,13 +8,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^4.2.2",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.4",
-    "enzyme-to-json": "^3.5.0",
     "eslint": "^7.7.0",
     "express": "^4.17.1",
-    "jest": "20.0.4",
-    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.11.2",
     "moment": "^2.28.0",
     "node-sass": "^4.14.1",
@@ -26,14 +21,12 @@
     "react-modal": "^3.11.2",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-test-renderer": "^16.13.1",
     "redux": "^4.0.5",
     "sass-loader": "^10.0.1",
     "style-loader": "^1.2.1",
     "uuid": "^8.3.0",
     "validator": "^13.1.1",
-    "webpack": "^4.44.1",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^4.44.1"
   },
   "name": "expensify",
   "version": "1.0.0",
@@ -43,7 +36,6 @@
   "scripts": {
     "start": "node server/server.js",
     "heroku-postbuild": "",
-    "serve": "live-server public/",
     "build:dev": "webpack --env development --mode=development",
     "build:prod": "webpack --env production",
     "eslintCmd": "eslint",
@@ -51,6 +43,12 @@
     "test": "jest --config=jest.config.json"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "enzyme-to-json": "^3.5.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "^16.13.1"
   }
 }
