@@ -12,6 +12,7 @@
     "enzyme-adapter-react-16": "^1.15.4",
     "enzyme-to-json": "^3.5.0",
     "eslint": "^7.7.0",
+    "express": "^4.17.1",
     "jest": "20.0.4",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.11.2",
@@ -40,6 +41,8 @@
   "author": "Faiber",
   "license": "MIT",
   "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "",
     "serve": "live-server public/",
     "build:dev": "webpack --env development --mode=development",
     "build:prod": "webpack --env production",
