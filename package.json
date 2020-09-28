@@ -14,6 +14,7 @@
     "moment": "^2.28.0",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
     "raf": "^3.4.1",
     "react": "^16.13.1",
     "react-dates": "^21.8.0",
@@ -43,12 +44,12 @@
     "test": "jest --config=jest.config.json"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.4",
     "enzyme-to-json": "^3.5.0",
     "jest": "20.0.4",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
